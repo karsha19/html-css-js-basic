@@ -1,0 +1,33 @@
+/*
+This stylesheet is for the index.html
+ */
+
+body {
+    font-size: 16px;
+}
+/*
+This does not match any tag in the html
+ */
+body span {
+    color: red;
+}
+/**
+Move image to the right
+ */
+img {
+    float: right;
+}
+
+/*
+Set font to bold
+ */
+p {
+    font-weight: bold;
+}
+
+/*
+Hide the contents of the matching tag
+ */
+p span {
+    display: none;
+}
